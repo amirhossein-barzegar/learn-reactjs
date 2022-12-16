@@ -2,9 +2,7 @@ import React,{Component} from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
@@ -15,11 +13,11 @@ class Header extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Link to="/" class="nav-link">Home</Link>
-                            <Link to="/blogs" class="nav-link">Blogs</Link>
-                            <Link to="/contact" class="nav-link">Contact Us</Link>
-                            <Link to="/about" class="nav-link">About Us</Link>
-                            <Link to="/profile" class="nav-link">Profile</Link>
+                            <Link to="/" className="nav-link">Home</Link>
+                            <Link to="/blogs" className="nav-link">Blogs</Link>
+                            <Link to="/contact" className="nav-link">Contact Us</Link>
+                            <Link to="/about" className="nav-link">About Us</Link>
+                            <Link to="/profile" className="nav-link">Profile</Link>
                         </Nav>
                         </Navbar.Collapse>
                 </Container>

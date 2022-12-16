@@ -10,6 +10,7 @@ import Contact from './components/Contact'
 import Blogs from './components/Blogs'
 import Profile from './components/Profile'
 import App from './App'
+import AddPost from './components/AddPost'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/newpost" element={<AddPost />} />
       </Routes>
     </Router>
   </React.StrictMode>
