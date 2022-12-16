@@ -3,14 +3,12 @@ import './App.css';
 // import Hello from './components/Hello';
 // import Hello from './components/HelloFuntional';
 // import Check from './components/Check';
-import Form from './components/Form'
+// import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Form />
-      </header>
+      <h1>Home page</h1>
     </div>
   );
 }
