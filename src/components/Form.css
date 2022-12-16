@@ -1,0 +1,32 @@
+.form-wrapper {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+input,
+button {
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 999px;
+}
+
+button {
+  cursor: pointer;
+  background: orange;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
+label {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+}
